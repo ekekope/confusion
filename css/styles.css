@@ -45,6 +45,9 @@ body {
     padding: 10px;
 }
 
+.login {
+    cursor: pointer;
+}
 .carousel {
     background: #512DA8;
 }
