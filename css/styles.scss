@@ -54,6 +54,10 @@ body {
     padding: 10px;
 }
 
+.login {
+    cursor: pointer;
+}
+
 .carousel {
     background-color: $background-dark;
 
@@ -72,4 +76,18 @@ body {
     right: 0;
     bottom: 0;
     position: absolute;
+}
+
+.modal-header {
+    background-color: $background-dark;
+    color: floralwhite;
+    .close {
+        color: floralwhite;
+        &:not(.disabled):hover {
+            color: floralwhite;
+        }
+    }
+}
+.modal-body {
+    background-color: $background-pale;
 }
